@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.508b4888.chunk.css",
-    "main.js": "/static/js/main.1534794e.chunk.js",
-    "main.js.map": "/static/js/main.1534794e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.255c4e45.js",
-    "runtime-main.js.map": "/static/js/runtime-main.255c4e45.js.map",
-    "static/js/2.453455d8.chunk.js": "/static/js/2.453455d8.chunk.js",
-    "static/js/2.453455d8.chunk.js.map": "/static/js/2.453455d8.chunk.js.map",
-    "static/js/3.b0d2edc6.chunk.js": "/static/js/3.b0d2edc6.chunk.js",
-    "static/js/3.b0d2edc6.chunk.js.map": "/static/js/3.b0d2edc6.chunk.js.map",
+    "main.css": "/static/css/main.c4e1d783.chunk.css",
+    "main.js": "/static/js/main.d10d8023.chunk.js",
+    "main.js.map": "/static/js/main.d10d8023.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.733143ea.js",
+    "runtime-main.js.map": "/static/js/runtime-main.733143ea.js.map",
+    "static/js/2.92aeca68.chunk.js": "/static/js/2.92aeca68.chunk.js",
+    "static/js/2.92aeca68.chunk.js.map": "/static/js/2.92aeca68.chunk.js.map",
+    "static/js/3.2c14f4cb.chunk.js": "/static/js/3.2c14f4cb.chunk.js",
+    "static/js/3.2c14f4cb.chunk.js.map": "/static/js/3.2c14f4cb.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.508b4888.chunk.css.map": "/static/css/main.508b4888.chunk.css.map",
-    "static/js/2.453455d8.chunk.js.LICENSE.txt": "/static/js/2.453455d8.chunk.js.LICENSE.txt",
-    "static/media/profile.a027bc61.jpg": "/static/media/profile.a027bc61.jpg"
+    "static/css/main.c4e1d783.chunk.css.map": "/static/css/main.c4e1d783.chunk.css.map",
+    "static/js/2.92aeca68.chunk.js.LICENSE.txt": "/static/js/2.92aeca68.chunk.js.LICENSE.txt",
+    "static/media/ca2.5467fed5.png": "/static/media/ca2.5467fed5.png",
+    "static/media/cars.0934d7ef.png": "/static/media/cars.0934d7ef.png",
+    "static/media/fractal.84994fd3.png": "/static/media/fractal.84994fd3.png",
+    "static/media/kingdom.d8201640.png": "/static/media/kingdom.d8201640.png",
+    "static/media/magnets.8589eaa3.png": "/static/media/magnets.8589eaa3.png",
+    "static/media/profile.a0ae21af.jpg": "/static/media/profile.a0ae21af.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.255c4e45.js",
-    "static/js/2.453455d8.chunk.js",
-    "static/css/main.508b4888.chunk.css",
-    "static/js/main.1534794e.chunk.js"
+    "static/js/runtime-main.733143ea.js",
+    "static/js/2.92aeca68.chunk.js",
+    "static/css/main.c4e1d783.chunk.css",
+    "static/js/main.d10d8023.chunk.js"
   ]
 }
