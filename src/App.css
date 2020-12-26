@@ -1,18 +1,45 @@
 .App {
-    height: 100vh;
+    height: auto;
     background-color: white;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, serif;
+}
 
+div {
+    box-sizing: border-box;
+}
+
+strong {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.5em;
 }
 
 .vsection {
-
+    display: block;
+    width: 70%;
+    margin: auto;
 }
 
 #header {
     background-color: lightblue;
-    color: white
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #header-inner {
@@ -34,31 +61,60 @@
 #header-rightblock {
     display: block;
     align-self: center;
-    text-align: left;   
+    text-align: left;
+    margin-left: 40px;
 }
 
 #media-container {
     display: flex;
+    width: 100%;
 }
 
 #media-container a {
     display: block;
-    padding-right: 8px;
-}
-
-@media screen and (max-width: 450px) { 
-    #header img {
-        display: none;
-    }
-
-    #header-rightblock {
-        text-align: center;
-    }
+    margin-right: 8px;
+    color: blue;
 }
 
 #navbar {
     background-color: black;
     color: white;
+    position: sticky;
+    top: 0px;
+    height: 40px;
+}
+
+#navbar img {
+    float: left;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+#nav-items {
+    overflow: hidden;
+}
+
+.nav-item {
+    display: block;
+    float: right;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  
+.nav-item:hover {
+    color: blue;
+    cursor: pointer;
 }
 
 #about {
@@ -66,53 +122,177 @@
     color: black;
 }
 
+#about h2 {
+    padding: 20px;
+}
+
+#about-container {
+    background-color: white;
+}
+
+#about-content {
+    display: flex;
+    width: 100%;
+}
+
+#description {
+    display: block;
+    width: 60%;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+#info-column {
+    display: block;
+    width: 40%;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#info-column h4 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#info-column p {
+    margin-bottom: 5px;
+}
+
 #projects {
     background-color: white;
     color: black;
 }
 
+#projects h2 {
+    padding: 20px;
+}
+
 #project-container {
-    width: 70%;
-    display: block;
-    margin: auto;
-    background-color: orange;
+    background-color: white;
 }
 
 .project {
     display: block;
 }
 
+.project h3 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .project-inner {
     display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .project img {
     display: block;
-    width: 100px;
-    height: 100px;
-    margin: auto;   
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .project-info {
     display: block;
     text-align: left;
+    padding-right: 20px;
 }
 
-@media screen and (max-width: 450px) { 
+.project-info p {
+    display: block;
+}
+
+.project-info a {
+    display: block;
+    margin-top: 10px;
+    color: blue;
+}
+
+#footer {
+    display: flex;  
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
+#footer img {
+    display: block;
+    margin: auto;
+}
+
+#facts {
+    display: flex;  
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
+#facts-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) { 
+    .vsection {
+        width: 100%;
+    }
+
+    #header img {
+        display: none;
+    }
+
+    #header-rightblock {
+        text-align: center;
+        margin: 0px;
+    }
+
+    #media-container a {
+        margin: auto;
+    }
+
+    #about-content {
+        display: block;
+        width: 100%;
+    }
+
+    #description {
+        width: 100%;
+        margin: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #info-column {
+        width: 100%;
+        margin: 0px;
+        padding: 20px;
+    }
+
+    #project-container {
+        width: 100%;
+    }
+    
     .project-inner {
         display: block;
     }
 
     .project img {
         display: inline;
+        margin: auto;
+        padding: 0px;
     }
 
     .project-info {
-        display: inline;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
     }
-}
-
-#footer {
-    background-color: black;
-    color: white;
 }
