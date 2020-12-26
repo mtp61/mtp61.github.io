@@ -20,25 +20,22 @@ class Navbar extends React.Component {
                     <li className="nav-item">
                         <Link 
                             activeClass="active"
-                            to="about"
+                            to="projects"
                             smooth={ true }
                             duration={ 500 }
-                            offset={ -40 }
-                        >About</Link>
+                            offset={ -50 }
+                        >Projects</Link>
                     </li>
                     <li className="nav-item">
                         <Link 
                             activeClass="active"
-                            to="projects"
+                            to="about"
                             smooth={ true }
                             duration={ 500 }
-                            offset={ -40 }
-                        >Projects</Link>
+                            offset={ -50 }
+                        >About</Link>
                     </li>
-                </ul>
-
-
-                
+                </ul>                
             </div>
         );
     }

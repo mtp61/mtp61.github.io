@@ -21,7 +21,7 @@ function App() {
             link: "https://github.com/mtp61/gof_ISMCTS"
         },
         {
-            title: "Proximal Policy Optimmization Applied to Gang of Four",
+            title: "Proximal Policy Optimization Applied to Gang of Four",
             imageNum: 2,
             info: "todo",
             link: "https://github.com/mtp61/gof_PPOalgorithm"
@@ -53,7 +53,7 @@ function App() {
         {
             title: "One Dimensional Cellular Automata",
             imageNum: 7,
-            info: "todo",
+            info: "todo   6270945478114",
             link: "https://github.com/mtp61/OneDimentionalCellularAutomata"
         },
         {

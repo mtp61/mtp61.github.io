@@ -7,8 +7,8 @@ class About extends React.Component {
                 <div id="about-container">
                     <h2>About Me</h2>
                     <div id="about-content">
-                    <div id="description">
-                            <p>filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text filler text</p>
+                        <div id="description">
+                            <p>I'm a sophomore at Harvard University working on a joint concentration in Mathematics and Computer Science. </p>
                         </div>
                         <div id="info-column">
                             <h4>Relevant Coursework</h4>

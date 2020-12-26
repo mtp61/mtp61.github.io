@@ -1,13 +1,13 @@
 import React from 'react';
 import image0 from '../images/esim1.png';
 import image1 from '../images/placeholder.png';
-import image2 from '../images/magnets.png';
+import image2 from '../images/placeholder.png';
 import image3 from '../images/placeholder.png';
-import image4 from '../images/placeholder.png';
-import image5 from '../images/placeholder.png';
-import image6 from '../images/placeholder.png';
-import image7 from '../images/placeholder.png';
-import image8 from '../images/placeholder.png';
+import image4 from '../images/cars.png';
+import image5 from '../images/magnets.png';
+import image6 from '../images/kingdom.png';
+import image7 from '../images/ca2.png';
+import image8 from '../images/fractal.png';
 
 class Projects extends React.Component {    
     render() {
