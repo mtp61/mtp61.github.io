@@ -210,6 +210,10 @@ h4 {
     display: block;
 }
 
+.project-info p a {
+    display: inline;
+}
+
 .project-info a {
     display: block;
     margin-top: 10px;
