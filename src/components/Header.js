@@ -1,12 +1,12 @@
 import React from 'react';
-import profile from '../images/profile.jpg';
+import profile from '../assets/images/profile.jpg';
+import resume from '../assets/MatthewPaulyResume.pdf';
 
 class Header extends React.Component {
     render() {
         return (
             <div id="header">
                 <div id="header-inner">
-                    
                     <img src={ profile } alt="Profile" />
                     <div id="header-rightblock">
                         <h1>Matt Pauly</h1>
@@ -14,6 +14,9 @@ class Header extends React.Component {
                         <h3>Welcome to my website!</h3>
                         <br />
                         <div id="media-container">
+                            <a href={resume} target="_blank" rel="noreferrer">
+                                resume
+                            </a>
                             <a href="https://www.linkedin.com/in/matthew-pauly-l659b0a196/" target="_blank" rel="noreferrer">
                                 linkedin
                             </a>

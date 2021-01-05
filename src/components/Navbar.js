@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
-import logo from '../images/logo.png';
+import logo from '../assets/images/logo.png';
 
 class Navbar extends React.Component {    
     scrollToTop = () => {
