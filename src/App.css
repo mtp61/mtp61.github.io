@@ -138,6 +138,7 @@ h4 {
 
 #description {
     display: block;
+    line-height: 1.35;
     width: 60%;
     margin-left: 20px;
     margin-right: 10px;
@@ -164,21 +165,55 @@ h4 {
     margin-bottom: 5px;
 }
 
-#projects {
-    background-color: white;
-    color: black;
+.experience {
+    display: block;
+    margin-bottom: 20px;
 }
 
-#projects h2 {
+.experience h3 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#experience h2 {
     padding: 20px;
 }
 
-#project-container {
+#experience-container {
     background-color: white;
+}
+
+.experience-inner {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.experience-info {
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.experience-info p {
+    display: block;
+    line-height: 1.35;
+}
+
+.experience-info p a {
+    display: inline;
+}
+
+.experience-info a {
+    display: block;
+    margin-top: 10px;
+    color: blue;
 }
 
 .project {
     display: block;
+    margin-bottom: 20px;
 }
 
 .project h3 {
@@ -190,6 +225,19 @@ h4 {
     display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+#projects {
+    background-color: white;
+    color: black;
+}
+
+#projects h2 {
+    padding: 20px;
+}
+
+#project-container {
+    background-color: white;
 }
 
 .project img {
@@ -208,6 +256,7 @@ h4 {
 
 .project-info p {
     display: block;
+    line-height: 1.35;
 }
 
 .project-info p a {

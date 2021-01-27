@@ -17,7 +17,7 @@ class Navbar extends React.Component {
                     onClick={ this.scrollToTop }
                 />
                 <ul id="nav-items">
-                    <li className="nav-item">
+                <li className="nav-item">
                         <Link 
                             activeClass="active"
                             to="projects"
@@ -25,6 +25,15 @@ class Navbar extends React.Component {
                             duration={ 500 }
                             offset={ -50 }
                         >Projects</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link 
+                            activeClass="active"
+                            to="experience"
+                            smooth={ true }
+                            duration={ 500 }
+                            offset={ -50 }
+                        >Experience</Link>
                     </li>
                     <li className="nav-item">
                         <Link 

@@ -17,14 +17,14 @@ class Header extends React.Component {
                             <a href={resume} target="_blank" rel="noreferrer">
                                 resume
                             </a>
-                            <a href="https://www.linkedin.com/in/matthew-pauly-l659b0a196/" target="_blank" rel="noreferrer">
+                            <a href="https://www.linkedin.com/in/matthew-pauly-659b0a196/" target="_blank" rel="noreferrer">
                                 linkedin
                             </a>
                             <a href="https://github.com/mtp61" target="_blank" rel="noreferrer">
                                 github
                             </a>
-                            <a href="https://www.instagram.com/matt.pauly/" target="_blank" rel="noreferrer">
-                                instagram
+                            <a href="mailto:mpauly@college.harvard.edu">
+                                email
                             </a>
                         </div>
                     </div>   

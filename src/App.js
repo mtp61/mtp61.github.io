@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import About from './components/About';
+import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 
@@ -53,14 +54,26 @@ function App() {
         {
             title: "One Dimensional Cellular Automata",
             imageNum: 7,
-            info: "todo   6270945478114",
+            // image: colors 3, above 3, rule 6270945478114
+            info: "This program allows users to view the behavior of one-dimensional cellular automata. The program supports both [elementary cellular automata](https://mathworld.wolfram.com/ElementaryCellularAutomaton.html) as well as an extension allowing for an arbitrary number of states and neighbors. Like the fractal generator, this program was written in python and uses pygame for the graphics.",
             link: "https://github.com/mtp61/OneDimentionalCellularAutomata"
         },
         {
             title: "Line Replacement Fractal Generator",
             imageNum: 8,
-            info: "todo",
+            info: "This python program generates fractals based on lines drawn by the user. The user first draws a series of line segments, then can repeatedly press the enter key which replaces each line in the drawing with a scaled and rotated version of the original drawing, creating a fractal. Experimenting with different starting lines can result in lots of interesting behavior.",
             link: "https://github.com/mtp61/LineReplacementFractalGenerator"
+        }
+    ];
+
+    const experience = [
+        {
+            title: "UHG Internship",
+            info: "todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo"
+        },
+        {
+            title: "CS 50 Course Assistant",
+            info: "todo"
         }
     ];
 
@@ -69,6 +82,7 @@ function App() {
             <Header />
             <Navbar />
             <About />
+            <Experience experience={ experience } />
             <Projects projects={ projects } />
             <Footer />
         </div>
