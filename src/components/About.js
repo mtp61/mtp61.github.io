@@ -8,7 +8,7 @@ class About extends React.Component {
                     <h2>About Me</h2>
                     <div id="about-content">
                         <div id="description">
-                            <p>I'm a sophomore at Harvard University working on a joint concentration in Mathematics and Computer Science. </p>
+                            <p>I'm a sophomore at Harvard University working on a joint concentration in Mathematics and Computer Science. I’m most interested in machine learning and artificial intelligence, which is at the intersection of my two main fields of study. Outside of school, I enjoy the outdoors, playing ultimate frisbee, and board and card games.</p>
                         </div>
                         <div id="info-column">
                             <h4>Relevant Coursework</h4>
