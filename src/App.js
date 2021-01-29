@@ -67,13 +67,17 @@ function App() {
     ];
 
     const experience = [
+        // {
+        //     title: "Amazon Internship",
+        //     info: "todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo ",
+        //     organization: "Amazon",
+        //     daterange: "July 2020 - August 2020"
+        // },
         {
-            title: "UHG Internship",
-            info: "todo"
-        },
-        {
-            title: "CS 50 Course Assistant",
-            info: "todo"
+            title: "Course Assistant for CS 50",
+            info: "In the fall semester of 2020 I was a CA for CS 50: Introduction to Computer Science. The primary duty of the job was to hold office hours every week to help students with their work on problem sets and understanding the course material. I enjoyed this a lot and I hope to continue with more teaching of some kind later in 2021.",
+            organization: "Harvard University",
+            daterange: "September 2020 - December 2020"
         }
     ];
 

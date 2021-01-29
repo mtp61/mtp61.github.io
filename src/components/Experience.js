@@ -41,6 +41,12 @@ class Experience extends React.Component {
                             <div className="experience-item" key={ experience.title }>
                                 <h3>{ experience.title }</h3>
                                 <div className="experience-inner">
+                                    <strong>
+                                        <div className="experience-tagline">    
+                                            <p className="experience-organization">{ experience.organization }</p>
+                                            <p className="experience-daterange">{ experience.daterange }</p>
+                                        </div>
+                                    </strong>
                                     <div className="experience-info">   
                                         <p>
                                             { parseLinks(experience.info) }
